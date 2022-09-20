@@ -1,0 +1,504 @@
+[
+    {
+        "question": "\n                A typical use for a DVD-R could be…\n            ",
+        "answers": [
+            "Storing archive files"
+        ]
+    },
+    {
+        "question": "The processor carries out which three tasks?",
+        "answers": [
+            "Fetch-Decode-Execute"
+        ]
+    },
+    {
+        "question": "Which of these is one characteristic of ROM?",
+        "answers": [
+            "Read only",
+            "Non-volatile",
+            "Small capacity in comparison to other types of primary memory external to the CPU"
+        ]
+    },
+    {
+        "question": "This component performs calculations and logical comparisons.",
+        "answers": [
+            "Arithmetic Logic Unit"
+        ]
+    },
+    {
+        "question": "Which of these describes a classic von Neumann architecture?",
+        "answers": [
+            "Data transfers and instruction fetches from RAM cannot be performed at the same time",
+            "An instruction can take more than one cycle to execute",
+            "Uses the same physical memory address for instructions and data"
+        ]
+    },
+    {
+        "question": "What is a purpose of the ROM?",
+        "answers": [
+            "To store the first instructions for a computer to boot",
+            "To store instructions for embedded systems"
+        ]
+    },
+    {
+        "question": "Which of these characteristics of a computer affects the performance of a CPU?",
+        "answers": [
+            "The size of the cache",
+            "Increased clock speed"
+        ]
+    },
+    {
+        "question": "What does the acronym 'ROM' stand for?",
+        "answers": [
+            "Read Only Memory"
+        ]
+    },
+    {
+        "question": "What is meant by 'the cloud'?",
+        "answers": [
+            "Remote servers that store data and software that can be accessed over the internet"
+        ]
+    },
+    {
+        "question": "Which one of the following is least likely to affect the performance of the CPU?",
+        "answers": [
+            "Choice of operating system"
+        ]
+    },
+    {
+        "question": "Which of these is an optical storage device?",
+        "answers": [
+            "DVD-RW",
+            "CD-R"
+        ]
+    },
+    {
+        "question": "Embedded systems usually avoid using hard disks in favour of flash memory. Why is that?",
+        "answers": [
+            "Moving parts are less reliable than solid-state components which are also more robust"
+        ]
+    },
+    {
+        "question": "When choosing suitable storage devices and media for an application, you should consider…",
+        "answers": [
+            "Capacity"
+        ]
+    },
+    {
+        "question": "What can be described as, 'A collection of small, super fast areas of memory on-board the CPU, which can be accessed/used by the other components of the CPU'?",
+        "answers": [
+            "Registers"
+        ]
+    },
+    {
+        "question": "What does the acronym 'RAM' stand for?",
+        "answers": [
+            "Random Access Memory"
+        ]
+    },
+    {
+        "question": "Which of the following devices found in the home is NOT an embedded system?",
+        "answers": [
+            "Personal laptop"
+        ]
+    },
+    {
+        "question": "What is one purpose of the CPU?",
+        "answers": [
+            "Execute instructions",
+            "Fetch instructions",
+            "Decode instructions"
+        ]
+    },
+    {
+        "question": "One purpose of the control unit is to…",
+        "answers": [
+            "Keep the internal components of the CPU synchronised",
+            "Send signals to control how data moves around the CPU",
+            "Decode instructions"
+        ]
+    },
+    {
+        "question": "What is the main advantage of the cache on board the CPU?",
+        "answers": [
+            "Fast access to frequently used instructions and data without having to go to RAM."
+        ]
+    },
+    {
+        "question": "What type of storage device are you most likely to find in a mobile phone?",
+        "answers": [
+            "Solid state"
+        ]
+    },
+    {
+        "question": "Flash memory and USB memory sticks are classified as what type of storage?",
+        "answers": [
+            "Solid state"
+        ]
+    },
+    {
+        "question": "The 'ALU' is a component of the processor, what is the 'ALU'?",
+        "answers": [
+            "Arithmetic Logic Unit"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a feature of embedded systems?",
+        "answers": [
+            "Capable of carrying out a wide variety of tasks"
+        ]
+    },
+    {
+        "question": "The RAM might store…",
+        "answers": [
+            "Data being used by currently loaded programs",
+            "The instructions of the operating system"
+        ]
+    },
+    {
+        "question": "Which of these is one characteristic of RAM?",
+        "answers": [
+            "Read and write",
+            "Volatile",
+            "Larger capacity in comparison to other types of primary memory external to the CPU"
+        ]
+    },
+    {
+        "question": "A school with a limited budget is likely to use what sort of storage on its file servers?",
+        "answers": [
+            "Magnetic"
+        ]
+    },
+    {
+        "question": "One advantage of solid state memory over a hard disk is that…",
+        "answers": [
+            "It is significantly faster",
+            "It is generally more durable"
+        ]
+    },
+    {
+        "question": "Secondary storage is?",
+        "answers": [
+            "A permanent storage of data when the power is turned off"
+        ]
+    },
+    {
+        "question": "Which of these is the major advantage of optical disks for storing an album of music?",
+        "answers": [
+            "Low cost"
+        ]
+    },
+    {
+        "question": "Which of these types of storage is limited by the maximum number of write times before it fails?",
+        "answers": [
+            "Solid state drive"
+        ]
+    },
+    {
+        "question": "Which computer architecture holds both programs and data in same main memory?",
+        "answers": [
+            "Von Neumann"
+        ]
+    },
+    {
+        "question": "Which of the following is the least portable form of storage?",
+        "answers": [
+            "Magnetic hard disk"
+        ]
+    },
+    {
+        "question": "Which of the following is an advantage of storing data in 'the cloud'?",
+        "answers": [
+            "It makes collaboration on a file a possibility",
+            "Automatic backups can be taken",
+            "Access files anytime, anywhere"
+        ]
+    },
+    {
+        "question": "What is meant by the term 'embedded system'?",
+        "answers": [
+            "System with a dedicated function within a larger mechanical/electrical system"
+        ]
+    },
+    {
+        "question": "What is clock speed measured in?",
+        "answers": [
+            "Hertz"
+        ]
+    },
+    {
+        "question": "Which of these is a component of the CPU?",
+        "answers": [
+            "Control Unit"
+        ]
+    },
+    {
+        "question": "Which of these is a description of the CPU?",
+        "answers": [
+            "Central Processing Unit"
+        ]
+    },
+    {
+        "question": "What is meant by the term volatile in the context of memory?",
+        "answers": [
+            "Data is lost when the power is turned off"
+        ]
+    },
+    {
+        "question": "The reason a computer needs secondary storage is because…",
+        "answers": [
+            "RAM is volatile and has a relatively small capacity"
+        ]
+    },
+    {
+        "question": "Why does increasing the clock speed of a CPU increase performance?",
+        "answers": [
+            "More instructions can be fetched, decoded and executed in the same amount of time"
+        ]
+    },
+    {
+        "question": "Which of these is not a suitable use of DVD-R disk?",
+        "answers": [
+            "Storing initialisation files for an installed operating system"
+        ]
+    },
+    {
+        "question": "What is a purpose of the RAM?",
+        "answers": [
+            "A temporary store for instructions and data"
+        ]
+    },
+    {
+        "question": "What is meant by the term 'clock speed'?",
+        "answers": [
+            "The speed at which a processor operates"
+        ]
+    },
+    {
+        "question": "Why would a user choose to swap their hard disk for an SSD?",
+        "answers": [
+            "It has a quicker access speed"
+        ]
+    },
+    {
+        "question": "In the past, computing magazines distributed free and trial software using DVD-R disks attached to the front of the magazine. They did this because…",
+        "answers": [
+            "DVD-R was the cheapest of the storage options"
+        ]
+    },
+    {
+        "question": "Which of the following is the most portable form of storage?",
+        "answers": [
+            "USB memory stick"
+        ]
+    },
+    {
+        "question": "Which of the following is a disadvantage of storing data in 'the cloud'?",
+        "answers": [
+            "The cost of large volumes of storage",
+            "Files may be less secure",
+            "Malware can easily spread to other computers"
+        ]
+    },
+    {
+        "question": "One advantage of flash memory over a hard disk is that…",
+        "answers": [
+            "It uses less power"
+        ]
+    },
+    {
+        "question": "Which of these is a function of the ALU?",
+        "answers": [
+            "Binary shift",
+            "Logic",
+            "Arithmetic"
+        ]
+    },
+    {
+        "question": "A police officer has a body worn video camera (BWV). Which is the most likely secondary storage medium for this device?",
+        "answers": [
+            "Solid state"
+        ]
+    },
+    {
+        "question": "Which part of the computer system is responsible for where files are stored when saved to secondary storage?",
+        "answers": [
+            "Operating system"
+        ]
+    },
+    {
+        "question": "Which of these is not a characteristic of ROM?",
+        "answers": [
+            "Large capacity"
+        ]
+    },
+    {
+        "question": "What type of quick access memory often sits between the CPU registers and the main memory (RAM)?",
+        "answers": [
+            "Cache memory"
+        ]
+    },
+    {
+        "question": "From lowest to highest, order these examples of storage media by their typical capacity. A solid-state drive in a mobile phone. A DVD-R to distribute a film. A hard disk in a desktop PC.",
+        "answers": [
+            "DVD-R, Solid-state, Hard disk"
+        ]
+    },
+    {
+        "question": "With secondary storage devices, speed refers to…",
+        "answers": [
+            "How quickly data can be found and transferred"
+        ]
+    },
+    {
+        "question": "Why does increasing the number of cores increase the speed of the CPU?",
+        "answers": [
+            "More than one instruction can be executed at the same time"
+        ]
+    },
+    {
+        "question": "From highest to lowest speed, what is the correct order for these devices?",
+        "answers": [
+            "Solid state drive, hard disk, CD-R"
+        ]
+    },
+    {
+        "question": "The basic model of a computer system can be represented as input, output, storage and what?",
+        "answers": [
+            "Processing"
+        ]
+    },
+    {
+        "question": "What does it mean if a CPU is quad-core?",
+        "answers": [
+            "The physical processor chip has 4 duplicate CPUs built in"
+        ]
+    },
+    {
+        "question": "A desktop PC user wants to maximise the speed of loading and using their operating system (OS), which has frequent updates. Which configuration would work best?",
+        "answers": [
+            "OS stored on solid state drive, applications on hard drive"
+        ]
+    },
+    {
+        "question": "One advantage of a hard disk over solid state storage is that…",
+        "answers": [
+            "It generally has a larger capacity"
+        ]
+    },
+    {
+        "question": "A personal, portable blood pressure monitor has some internal secondary storage. Which of these is it likely to be?",
+        "answers": [
+            "Solid state"
+        ]
+    },
+    {
+        "question": "What is the typical order of capacity of these storage options, smallest to largest?",
+        "answers": [
+            "CD-R, USB flash memory stick, hard disk, cloud"
+        ]
+    },
+    {
+        "question": "Capacity refers to…",
+        "answers": [
+            "How much data can be stored on the device"
+        ]
+    },
+    {
+        "question": "Why does having a very large cache not give a big performance increase for the CPU?",
+        "answers": [
+            "It will take more time to fetch the data in a large cache"
+        ]
+    },
+    {
+        "question": "A desktop PC with an internal single drive of 8TB is likely to be…",
+        "answers": [
+            "Magnetic"
+        ]
+    },
+    {
+        "question": "One advantage of a hard disk over flash memory is that…",
+        "answers": [
+            "Before it fails you usually get detectable anomalies"
+        ]
+    },
+    {
+        "question": "Which of the following type of memory is the fastest in terms of access speed?",
+        "answers": [
+            "Registers"
+        ]
+    },
+    {
+        "question": "Which of the following types of storage devices uses 'pits and lands' to store its data?",
+        "answers": [
+            "Optical"
+        ]
+    },
+    {
+        "question": "One purpose of the cache is to…",
+        "answers": [
+            "Hold frequently used items of data",
+            "Hold frequently used instructions"
+        ]
+    },
+    {
+        "question": "Why does having a small cache increase the speed of the CPU?",
+        "answers": [
+            "Frequently used instructions and data are already in the CPU and are not fetched again from RAM"
+        ]
+    },
+    {
+        "question": "Which type of secondary storage would you recommend for low latency and fast transfer speeds?",
+        "answers": [
+            "Solid state"
+        ]
+    },
+    {
+        "question": "DVD-R format is…",
+        "answers": [
+            "Write once, read many times and non-volatile"
+        ]
+    },
+    {
+        "question": "Which of these characteristics of a computer system affects the performance of a CPU?",
+        "answers": [
+            "The number of cores"
+        ]
+    },
+    {
+        "question": "Which of these is magnetic storage?",
+        "answers": [
+            "Hard disk"
+        ]
+    },
+    {
+        "question": "Where are programs executed from?",
+        "answers": [
+            "Primary storage: RAM & ROM"
+        ]
+    },
+    {
+        "question": "A typical use for a DVD-R could be…",
+        "answers": [
+            "Storing archive files"
+        ]
+    },
+    {
+        "question": "Hard disks are classified as what type of storage?",
+        "answers": [
+            "Magnetic"
+        ]
+    },
+    {
+        "question": "CD's, DVDs and Blu-Ray are classified as what type of storage?",
+        "answers": [
+            "Optical"
+        ]
+    },
+    {
+        "question": "What is the major advantage of a travelling sales rep using cloud storage for storing files?",
+        "answers": [
+            "Access the most recent files anywhere as long as there is an internet connection"
+        ]
+    }
+]

@@ -84,8 +84,10 @@ function processQuestion(question, option) {
                     // Wait a bit for the click to register
                     setTimeout(function(){
                         // Get correct answer
-                        let correctAnswer = document.getElementsByClassName("btn-success")[0].children[0].children[1].textContent
-                        pushAnswer(question, correctAnswer)
+                        if (document.getElementsByClassName("btn-success")[0].children[0].children[1]) {
+                            let correctAnswer = document.getElementsByClassName("btn-success")[0].children[0].children[1].textContent
+                            pushAnswer(question, correctAnswer)
+                        }
                     }, 1500)
                 }
             }

@@ -500,5 +500,11 @@
         "answers": [
             "Access the most recent files anywhere as long as there is an internet connection"
         ]
+    },
+    {
+        "question": "\n                What is meant by the term 'clock speed'?\n            ",
+        "answers": [
+            "The speed at which a processor operates"
+        ]
     }
 ]

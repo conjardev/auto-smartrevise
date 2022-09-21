@@ -1,5 +1,8 @@
 // Global variables
 const nextQuestion = document.getElementById("lnkNext")
+
+var learnedToday = []
+
 var answerDictionary = [
 //  {"question":x, "answers":["a","b","c"]}
 ]
@@ -37,8 +40,27 @@ function pushAnswer(question, answer) {
         }
     }
 
+    for (q=0; q<learnedToday.length; q++) {
+        if (learnedToday[q]["question"] == question) {
+  
+            let answers = learnedToday[q]["answers"]
+
+            if (!answers.includes(answer)) {
+                // Only add the answer if it has not been added before
+                answers.push(answer)
+            }
+
+            // Add the new answer to the main dictionary
+            learnedToday[q] = {"question": question, "answers":answers}
+        }
+    }
+
     if (found == false) {
-        answerDictionary.push({"question":question,"answers":[answer]})
+        let insert = {"question":question,"answers":[answer]}
+        if (!answerDictionary.includes(insert)) {
+            answerDictionary.push(insert)
+            learnedToday.push(insert)
+        }
 
         pushAnswer(question, answer)
     }
@@ -122,6 +144,7 @@ function run() {
 
 // Function to initiate core functionalities
 function init() {
+    jQuery.ajaxSetup({async:false});
     let urlPrefix = "https://raw.githubusercontent.com/conjardev/smartrevise-solver/main/datasets/"
     // This requires JQuery to work - luckily SmartRevise uses JQuery
     $.get((urlPrefix+"index.json"), function(index, status){
@@ -138,6 +161,14 @@ function init() {
             });
         }
     });
+}
+
+function save() {
+    console.log("-".repeat(20))
+    console.log("Output")
+    console.log("-".repeat(20))
+    console.log("\nRight click on the array below and click 'Copy Object'")
+    console.log(learnedToday)
 }
 
 // Start function to easily startup the entire script

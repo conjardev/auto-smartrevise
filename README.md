@@ -22,16 +22,25 @@ To contribute new data to the project, get the contents of the `answerDictionary
 
 The file should look something like:
 ```json
+[
 {
   "question": "This is a question",
   "answers": ["This is an answer"]
+},
+{
+  "question": "This is another question",
+  "answers": ["This is answer one", "This is answer two"]
 }
+]
 ```
+# Features
+### Auto Popup Remover
+This feature removes any "Slow down" popups, meaning this is AFK-able
 
+### Auto Dataset Sync
+This feature syncs any datasets listed in `datasets/index.json` to the script on startup, meaning nothing needs to be loaded by the user
+> [Read about contributing data](# How to contribute)
 
 # Plans for the future
-### Automated Dataset Sync *[Concept]*
-This would fetch datasets from the repository and bring them into the script on load, this would make adding new data much simpler and would allow for a wider spread of tasks to be automated
-
 ### Randomised Intervals *[Concept]*
 This would simply randomise the interval speed to make it look more human like (e.g. ranging from 3.5 seconds to 5 seconds)

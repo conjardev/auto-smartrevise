@@ -16,6 +16,7 @@ A simple JS web addon to solve questions on "Smart Revise"
 # How to contribute
 #### Contributions are greatly appreciated, especially the addition of new datasets
 To contribute new data to the project, get the contents of the `answerDictionary` array saved to a `.json` file <br>
+>:question: You can get the new entries by doing `save()` in the console
 >:exclamation: It is suggested that datasets are created by the script itself, however, if you want to create one yourself, make sure it works with the questions before contributing
 
 The file should look something like:

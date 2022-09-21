@@ -8,12 +8,10 @@ A simple JS web addon to solve questions on "Smart Revise"
 - Select the `console` tab on Inspect Element, *this may be in different places on different browsers or configurations*
 
 ### Running
->:exclamation: (Currently), this comes with **NO** training data, the script will train itself which will start by marking questions as `I don't know`. This is normal.
-
 - Paste the copied code into the `console` tab
 - Press `enter` to run the script.
 
->:exclamation: This script may take a long time to train, it's adviced you save your dataset to use in the future, however, a better system to this is in development
+>:exclamation: If it does not know a question, it will mark it as `I don't know`, Do not panic, as it will be logged and remembered for next time *(If the dataset is saved)*
 
 # How to contribute
 #### Contributions are greatly appreciated, especially the addition of new datasets

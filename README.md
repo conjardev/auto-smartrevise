@@ -2,11 +2,8 @@
 A simple JS web addon to solve questions on "Smart Revise"
 
 # Quick-Start guide
-### Installation
-To install, simply download `solver.js` to your device.
-
 ### Setup
-- Copy the contents of `solver.js` to your clipboard
+- Copy the contents of `solver.js` *(Either from GitHub or by downloading to your machine)* to your clipboard
 - On *Smart Revise*, start the quiz and open **inspect element**
 - Select the `console` tab on Inspect Element, *this may be in different places on different browsers or configurations*
 

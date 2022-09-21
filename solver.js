@@ -45,54 +45,52 @@ function pushAnswer(question, answer) {
 }
 
 function processQuestion(question, option) {
-    let optionText = (option.textContent)
+    if (option) {
+        let optionText = (option.textContent)
 
-    if (!getAnswer(question)) {
-        // Question not in DB, find answer and add it
-        if (optionText == "I don't know") {
-            // Select "I don't know"
-            option.click()
-
-            // Wait a bit for the click to register
-            setTimeout(function(){
-                // Get correct answer
-                let correctAnswer = document.getElementsByClassName("btn-success")[0].children[0].children[1].textContent
-
-                pushAnswer(question, correctAnswer)
-                //console.log(answerDictionary)
-            }, 1500)
-        }
-    } else {
-        // This answer has already been logged before
-        let answers = getAnswer(question)
-        let answerSelected = false
-
-        for (a=0; a<answers.length; a++) {
-            if (optionText == answers[a]) {
-                // If the option is any valid answer, select it
-                option.click()
-                answerSelected = true
-            }
-        }
-
-        if (answerSelected == false) {
-            // If no answer was selected, select "I don't know" and push the answer to the db
+        if (!getAnswer(question)) {
+            // Question not in DB, find answer and add it
             if (optionText == "I don't know") {
                 // Select "I don't know"
                 option.click()
-    
+
                 // Wait a bit for the click to register
                 setTimeout(function(){
                     // Get correct answer
                     let correctAnswer = document.getElementsByClassName("btn-success")[0].children[0].children[1].textContent
-    
+
                     pushAnswer(question, correctAnswer)
-                    console.log(answerDictionary)
                 }, 1500)
+            }
+        } else {
+            // This answer has already been logged before
+            let answers = getAnswer(question)
+            let answerSelected = false
+
+            for (a=0; a<answers.length; a++) {
+                if (optionText == answers[a]) {
+                    // If the option is any valid answer, select it
+                    option.click()
+                    answerSelected = true
+                }
+            }
+
+            if (answerSelected == false) {
+                // If no answer was selected, select "I don't know" and push the answer to the db
+                if (optionText == "I don't know") {
+                    // Select "I don't know"
+                    option.click()
+        
+                    // Wait a bit for the click to register
+                    setTimeout(function(){
+                        // Get correct answer
+                        let correctAnswer = document.getElementsByClassName("btn-success")[0].children[0].children[1].textContent
+                        pushAnswer(question, correctAnswer)
+                    }, 1500)
+                }
             }
         }
     }
-
     // Go to the next question after 2.5 seconds
     setTimeout(function(){
         nextQuestion.click()
@@ -113,14 +111,36 @@ function run() {
     // Loop through options
     for (i=0; i<answerOptions.length; i++) {
         let option = answerOptions[i]
-        option = (option.children[0].children[0].children[1])
-
-        processQuestion(question, option)
+        if (option.children.length > 0) {
+            option = (option.children[0].children[0].children[1])
+            processQuestion(question, option)
+        }
     }
+}
+
+// Function to initiate core functionalities
+function init() {
+    let urlPrefix = "https://raw.githubusercontent.com/conjardev/smartrevise-solver/main/datasets/"
+    // This requires JQuery to work - luckily SmartRevise uses JQuery
+    $.get((urlPrefix+"index.json"), function(index, status){
+        index = jQuery.parseJSON(index)
+        // Loop through an index of every dataset
+        for (z=0; z<index.length; z++) {
+            let name = index[z] + ".json"
+            $.get((urlPrefix+name), function(data, status){
+                // Get the latest data
+                data = jQuery.parseJSON(data)
+                for (d=0; d<data.length; d++) {
+                    answerDictionary.push(data[d])
+                }
+            });
+        }
+    });
 }
 
 // Start function to easily startup the entire script
 function start() {
+    init()
     setInterval(function(){
         run()
     }, 3500)

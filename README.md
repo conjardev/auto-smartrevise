@@ -39,7 +39,7 @@ This feature removes any "Slow down" popups, meaning this is AFK-able
 
 ### Auto Dataset Sync
 This feature syncs any datasets listed in `datasets/index.json` to the script on startup, meaning nothing needs to be loaded by the user
-> [Read about contributing data](# How to contribute)
+[Read about contributing data](# How to contribute)
 
 # Plans for the future
 ### Randomised Intervals *[Concept]*

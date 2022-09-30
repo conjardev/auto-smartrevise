@@ -2,14 +2,11 @@
 A simple JS web addon to solve questions on smartrevise.online
 
 # Quick-Start guide
-### Setup
-- Copy the contents of `solver.js` *(Either from GitHub or by downloading to your machine)* to your clipboard
-- On *Smart Revise*, start the quiz and open **inspect element**
-- Select the `console` tab on Inspect Element, *this may be in different places on different browsers or configurations*
-
-### Running
-- Paste the copied code into the `console` tab
-- Press `enter` to run the script.
+1. Copy the contents of `solver.js` to your clipboard *(This can be done from the GitHub or by downloading the file)
+2. On [Smart Revise](https://smartrevise.online/), start the **quiz** and open `inspect element`
+3. On `inspect element`, switch to the tab named `console`
+4. Paste the copied code into the `console`
+5. Press enter and run
 
 >:exclamation: If it does not know a question, it will mark it as `I don't know`, Do not panic, as it will be logged and remembered for next time *(If the dataset is saved)*
 

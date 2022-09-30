@@ -179,4 +179,6 @@ function start() {
     }, 3500)
 }
 
-start()
+setTimeout(function(){
+    start()
+},100)

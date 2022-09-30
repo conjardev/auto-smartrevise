@@ -1,4 +1,4 @@
-# smartrevise-solver
+# Auto-Smartrevise
 A simple JS web addon to solve questions on smartrevise.online
 
 # Quick-Start guide

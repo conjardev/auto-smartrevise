@@ -47,4 +47,4 @@ This would simply randomise the interval speed to make it look more human like (
 It is highly advised that you check the Terms and Conditions before running any automated scripts on the website.
 I take no accountability for any action that may be taken against your Smart Revise account for running this script.
 
-You are resbonsible for your own actions online.
+You are responsible for your own actions online.

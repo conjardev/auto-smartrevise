@@ -1,5 +1,5 @@
 # smartrevise-solver
-A simple JS web addon to solve questions on "Smart Revise"
+A simple JS web addon to solve questions on smartrevise.online
 
 # Quick-Start guide
 ### Setup

@@ -1,12 +1,12 @@
+# Auto-Smartrevise
+A simple JS web addon to solve questions on smartrevise.online
+
 ## :exclamation: Caution! :exclamation:
 It is highly advised that you check the Terms and Conditions before running any automated scripts on the website.
 The site owners can and may take actaion against your Smart Revise account for using this script.
 I take no accountability for any action that may be taken against your Smart Revise account for running this script.
 
 You are responsible for your own actions online.
-
-# Auto-Smartrevise
-A simple JS web addon to solve questions on smartrevise.online
 
 # Quick-Start guide
 1. Copy the contents of `solver.js` to your clipboard *(This can be done from the GitHub or by downloading the file)

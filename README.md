@@ -1,3 +1,10 @@
+## :exclamation: Caution! :exclamation:
+It is highly advised that you check the Terms and Conditions before running any automated scripts on the website.
+The site owners can and may take actaion against your Smart Revise account for using this script.
+I take no accountability for any action that may be taken against your Smart Revise account for running this script.
+
+You are responsible for your own actions online.
+
 # Auto-Smartrevise
 A simple JS web addon to solve questions on smartrevise.online
 
@@ -42,9 +49,3 @@ This feature syncs any datasets listed in `datasets/index.json` to the script on
 # Plans for the future
 ### Randomised Intervals *[Concept]*
 This would simply randomise the interval speed to make it look more human like (e.g. ranging from 3.5 seconds to 5 seconds)
-
-## :exclamation: Caution! :exclamation:
-It is highly advised that you check the Terms and Conditions before running any automated scripts on the website.
-I take no accountability for any action that may be taken against your Smart Revise account for running this script.
-
-You are responsible for your own actions online.
